@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDP1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+      integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+  </head>
+  <body class="bg-light">
+    <div id="app">
+      <nav class="navbar-section">
+        <div class="app-container">
+          <div class="navbar-container">
+            <div class="navbar-logo-container">
+              <a onclick="getProductsData()" type="button">IDPSHOP</a>
+            </div>
+            <div class="w-50 px-1">
+              <div class="navbar-search-container">
+                <input
+                  type="text"
+                  name="navbar-searh"
+                  id="navbar-search-input"
+                  placeholder="Search"
+                />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+            </div>
+            <div>
+              <div class="navbar-profile-container">
+                <a class="navbar-profile-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a class="navbar-profile-icon">
+                  <i class="fa-solid fa-bell"></i>
+                </a>
+                <div class="navbar-profile-image-container">
+                  <img
+                    class="profile-image"
+                    src="src/img/profile.png"
+                    alt="profile-image"
+                  />
+                </div>
+              </div>
+              <div class="navbar-profile-container-icon">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="product_container" class="py-5">
+        <div class="app-container">
+          <div id="products" class="row"></div>
+
+          <div class="pagination-container">
+            <div class="pagination-body">
+              <div class="pagination-prev-next-btn">
+                <a class="btn btn-primary" href="#">Prev</a>
+              </div>
+              <ul class="pagination-serial-btn">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+              </ul>
+              <div class="pagination-prev-next-btn">
+                <a class="btn btn-primary" href="#">Next</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="product_details_container" class="py-5"></section>
+    </div>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
