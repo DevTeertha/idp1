@@ -1,35 +1,67 @@
 [
-    {
-        "name": "Alooz",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
-        "price": 20,
-        "quantity": "60gm",
-        "img": "https://dokanpat.com.bd/wp-content/uploads/2022/03/alooz-waves-hot-flavour-potato-chips.jpg",
-        "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
-    },
-    {
-        "name": "Mr. Twist",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
-        "price": 20,
-        "quantity": "50gm",
-        "img": "https://i0.wp.com/www.khan.com.bd/wp-content/uploads/2020/12/Bombay-Sweets-Mr.-Twist-Chips.jpg?fit=1200%2C1200&ssl=1",
-        "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
-    },
-    {
-        "name": "Kurkure",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
-        "price": 20,
-        "quantity": "45gm",
-        "img": "https://chefcart.com.bd/wp-content/uploads/2020/10/Kurkure-American-Style-Cream-Onion-Chips.png",
-        "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
-    },
+  {
+    "name": "Alooz",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 20,
+    "quantity": "60gm",
+    "img": "src/img/products/alooz.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
+  {
+    "name": "Mr. Twist",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 20,
+    "quantity": "50gm",
+    "img": "src/img/products/mr-twist.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
+  {
+    "name": "Kurkure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 20,
+    "quantity": "45gm",
+    "img": "src/img/products/kukure.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
 
-    {
-        "name": "Princles",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
-        "price": 150,
-        "quantity": "45gm",
-        "img": "https://chaldn.com/_mpimage/pringles-original-potato-chips-134-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132364&q=best&v=1&m=400",
-        "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
-    }
+  {
+    "name": "Princles",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 150,
+    "quantity": "45gm",
+    "img": "src/img/products/pringles.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
+  {
+    "name": "Lays",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 50,
+    "quantity": "20gm",
+    "img": "src/img/products/lays.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
+  {
+    "name": "Nachoz",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 15,
+    "quantity": "10gm",
+    "img": "src/img/products/nachoz.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
+  {
+    "name": "Pasta Chips",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 20,
+    "quantity": "25gm",
+    "img": "src/img/products/pasta-chips.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  },
+  {
+    "name": "Potato Crackers",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, reprehenderit!",
+    "price": 20,
+    "quantity": "25gm",
+    "img": "src/img/products/potato-crackers.png",
+    "ingredients": "3 potato (large), 4 cup chilled water (for rinsing), 1 tsp kashmiri red chilli powder. oil (for frying)"
+  }
 ]
